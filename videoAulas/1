@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+	float celsius;
+	float farer;
+
+	printf("Digite o valor em celsius \n");
+	scanf("%f",&celsius);
+
+	farer =( celsius*1.8) + 32;
+	
+	printf("%.2f",farer);
+return 0;
+}
+
